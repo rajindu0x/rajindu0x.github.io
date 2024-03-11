@@ -5,7 +5,7 @@ categories: [Digital Forensics, HackTheBox]
 tags: [Forensics, git, discord]
 ---
 
-## Description:
+## Challenge Description:
 A Junior Developer just switched to a new source control platform. Can you find the secret token?
 
 ## Enumeration:
@@ -168,7 +168,7 @@ client.login(Buffer.from(config.token, 'base64').toString('ascii')) //Login with
 ````
 
 ## Solution: 
-Perfect! Upon reading the script we can see that the script is used to connect to a discord bot, implmeneted using discord.js library. The last line of the script implies that the client needs to login to the discord bot by supplying the base64 encoded token fetched from config.json file. The script will then decode the token and logs the client in.
+Perfect! Upon reading the script we can see that the script is used to connect to a discord bot, implemented using discord.js library. The last line of the script implies that the client needs to login to the discord bot by supplying the base64 encoded token fetched from config.json file. The script will then decode the token and logs the client in.
 
 Now it's clear that we need to find the working token. For this lets examine the git commits. Specifically, the commit done on 'Date: Fri May 31 12:00:54 2019 +0100', as the author said he removed the unique token in that commit.
 
