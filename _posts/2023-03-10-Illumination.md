@@ -37,28 +37,6 @@ Date:   Fri May 31 09:14:04 2019 +0100
 commit 335d6cfe3cdc25b89cae81c50ffb957b86bf5a4a
 Author: SherlockSec <dan@lights.htb>
 Date:   Thu May 30 22:16:02 2019 +0100
-:...skipping...
-commit edc5aabf933f6bb161ceca6cf7d0d2160ce333ec (HEAD -> master)
-Author: SherlockSec <dan@lights.htb>
-Date:   Fri May 31 14:16:43 2019 +0100
-
-    Added some whitespace for readability!
-
-commit 47241a47f62ada864ec74bd6dedc4d33f4374699
-Author: SherlockSec <dan@lights.htb>
-Date:   Fri May 31 12:00:54 2019 +0100
-
-    Thanks to contributors, I removed the unique token as it was a security risk. Thanks for reporting responsibly!
-
-commit ddc606f8fa05c363ea4de20f31834e97dd527381
-Author: SherlockSec <dan@lights.htb>
-Date:   Fri May 31 09:14:04 2019 +0100
-
-    Added some more comments for the lovely contributors! Thanks for helping out!
-
-commit 335d6cfe3cdc25b89cae81c50ffb957b86bf5a4a
-Author: SherlockSec <dan@lights.htb>
-Date:   Thu May 30 22:16:02 2019 +0100
 
     Moving to Git, first time using it. First Commit!
 
@@ -78,9 +56,12 @@ But before that, let's examine the two files starting with config.json
 }
 
 ````
-The file contains a username encoded in base64, hostname and a port number(seems like...) and two other values for token and prefix. The token value says that we need to replace the token with it's real value. But where is it?
+The file contains a username encoded in base64, hostname and LightNum and two other values for token and prefix. The token value says that we need to replace the token with it's real value. But where is it?
 
-Anyways, let's examine bot.js file to see how we can leverage the information we already found.
+Upon decoding the username, we are given a little hint!
+![decoded base64 username](/assets/img/posts/illumination/ss4.png)
+
+Now, let's examine bot.js file to see how we can leverage the information we already found.
 
 ````js
 cat bot.js 
@@ -193,9 +174,8 @@ Now it's clear that we need to find the working token. For this lets examine the
 
 ![token found](/assets/img/posts/illumination/ss2.png)
 
-We found the token. We can leverage this token to connect to sherlocksec's discord bot. Upon decoding the token we get out flag!
+We found the token. We can leverage this token to connect to sherlocksec's discord bot. Upon decoding the token we get our flag!
 ![token found](/assets/img/posts/illumination/ss3.png)
 
-
-
-
+## Lessons learned: 
+This scenario underscores the need for developers to handle sensitive information securely, avoiding hardcoded tokens in source code and opting for safer storage methods like environment variables. Regular review of commit history helps catch unintended leaks. 
