@@ -9,7 +9,7 @@ tags: [Forensics, PCAP, Telnet, Weak credentials ]
 We have got informed that a hacker managed to get into our internal network after pivoting through the web platform that runs in public internet. He managed to bypass our small product stocks logging platform and then he got our costumer database file. We believe that only one of our costumers was targeted. Can you find out who the customer was? 
 
 ## Analysis: 
-We are provided with a zip file. Upon unzipping we are given a pcap file. Let's open it with Wireshark.
+We are provided with a zip file. Upon unzipping the zip we are given a pcap file. Let's open it with Wireshark.
 ![pcap analysis with wireshark](/assets/img/posts/marketdump/pcap_wireshark.png)
 
 The pcap contains only 2868 packets. It should be easy to analyze :)
@@ -97,4 +97,4 @@ Upon decoding the text we are finally given the flag!
 ![decoded flag](/assets/img/posts/marketdump/flag_decoded.png)
 
 ## Lessons learned: 
-The incident reveals vulnerabilities in network security, notably weak password usage in telnet access, leading to unauthorized entry and exfiltration of sensitive data. Key takeaways include the imperative of enforcing robust password policies, and monitoring network traffic rigorously to detect and prevent unauthorized access and data exfiltration. Additionally, it emphasizes the critical need for organizations to transition away from insecure protocols like Telnet and adopt more secure alternatives, such as SSH, to protect against unauthorized access and data breaches
+The incident reveals vulnerabilities in network security, notably weak password usage in telnet access, leading to unauthorized entry and exfiltration of sensitive data. Key takeaways include the imperative of enforcing robust password policies, and monitoring network traffic rigorously to detect and prevent unauthorized access and data exfiltration. Additionally, it emphasizes the critical need for organizations to transition away from insecure protocols like Telnet and adopt more secure alternatives, such as SSH, to protect against unauthorized access and data breaches.
