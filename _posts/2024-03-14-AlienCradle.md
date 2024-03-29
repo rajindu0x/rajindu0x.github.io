@@ -5,3 +5,4 @@ categories: [Digital Forensics, HackTheBox]
 tags: [Forensics, WireShark, Zeek, IDS, DNS, TLS, Log Analysis]
 ---
 
+    
