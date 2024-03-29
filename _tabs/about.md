@@ -6,9 +6,9 @@ order: 4
 
 Welcome abroad, fearless voyager👋 Let's step boldly into the digital realm!
 
-I am Rajindu Yasojith, a vigilant defender, unwavering in safeguarding the domain of cybersecurity, known by the moniker rajindu0x. I distinguish myself as a beacon of security and resilience, committed to fortifying our digital landscape against unwelcome invasions.
+I am Rajindu Yasojith, a vigilant defender, known by the moniker rajindu0x. I see myself as a strong defender of security, dedicated to making our digital world safer from unwanted attacks.
 
-I hold a degree in in Electrical and Telecommunications Engineering, with the primary focus on InfoSec, particularly in the domains of web and mobile application security, infrastructure penetration testing, and digital forensics. Currently, I am fully immersed in the world of Capture The Flag Challenges (CTFs), dedicating my time to master the intricacies of cybersecurity.
+I hold a degree in in Electrical and Telecommunications Engineering, with the primary focus on InfoSec, particularly in the domains of web and mobile application security, infrastructure penetration testing, and digital forensics. Currently, I spend a lot of time mastering technical aspects of cybersecurity through Capture The Flag Challenges (CTFs).
 
 Find me on [LinkedIn](https://www.linkedin.com/in/rajindu){:target="_blank"}, [GitHub](https://github.com/rajindu0x){:target="_blank"}, and [TryHackMe](https://tryhackme.com/p/rajindu0x){:target="_blank"} to stay connected!
 
