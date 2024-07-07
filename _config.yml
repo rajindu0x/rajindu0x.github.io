@@ -14,14 +14,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Rajindu0x # the main title
+title: Rajindu Yasojith # the main title
 
-tagline: Writeups for Pentesting, DFIR, SOC, and Malware Reversing # it will display as the sub-title
+tagline: Writeups for Penetration Testing and DFIR # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  I'm Rajindu Yasojith, a Security enthusiast who is passionate about Pentesting, Bug Bounties, Forensics, Blue Teaming and Malware Reversing.
-  The website presents cybersecurity write-ups and blog posts for both red teaming and blue teaming and also CTFs. 
-  #rajindu0x #rajinduyasojith #rajindu #yasojith
+  I'm Rajindu Yasojith, a Security enthusiast who is passionate about Pentesting, Bug Bounties, Forensics, Blue Teaming and Malware Reversing. #rajindu0x #rajinduyasojith #rajindu #yasojith
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
