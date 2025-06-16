@@ -7,9 +7,9 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/rajindu' # Fill with your Linkedin homepage
 
-- type: tryhackme
-  icon: 'fab fa-linux'   # icons powered by <https://fontawesome.com/>
-  url:  'https://tryhackme.com/p/rajindu0x' 
+- type: Portfolio
+  icon: 'fab fa-blog'   # icons powered by <https://fontawesome.com/>
+  url:  'https://gray-pebble-0be3a7110.6.azurestaticapps.net/' 
   
 - type: twitter
   icon: "fa-brands fa-x-twitter"
