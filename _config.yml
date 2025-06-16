@@ -19,7 +19,7 @@ title: Rajindu Yasojith # the main title
 tagline: Writeups for Penetration Testing and DFIR # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  I'm Rajindu Yasojith, a Security enthusiast who is passionate about Pentesting, Bug Bounties, Forensics, Blue Teaming and Malware Reversing. #rajindu0x #rajinduyasojith #rajindu #yasojith
+  I'm Rajindu Yasojith, a Security enthusiast who is skilled in Pentesting, Bug Bounties, Forensics, Blue Teaming and Azure architecting. #rajindu0x #rajinduyasojith #rajindu #yasojith
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -43,7 +43,7 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/rajindu
-    - https://www.tryhackme.com/p/rajindu0x
+    - https://gray-pebble-0be3a7110.6.azurestaticapps.net
 
 google_site_verification: 8e588c27491176a5
 
